@@ -74,6 +74,16 @@ The model can use some tweaking as well as exploring through different algorithm
 I would also like to recreate this analysis with more recent years to compare. I would like to monitor the direction of the Hispanic/Latino market and provide better data driven decisions solutions to problems they are facing.
 
 ## For More Information
+Please review my full analysis in my [Jupyter Notebook]() or my [presentation]().
+
+For any additional questions, please contact **Eric Romano** at [egustavo4@gmail.com](egustavo94@gmail.com).
+
 ## Repository Structure
 '''
-├── README.md '''
+├── README.md                                   <- The top-level README for reviewers of this project
+├── Mortgage_Loan_Denial_Classification.ipynb   <- Narrative documentation of analysis in Jupyter notebook
+├── Mortgage_Loan_Denial_Classification.pdf                     <- PDF version of project presentation
+├── Mortgage_Loan_Denial_Classification.pdf             <- PDF version of Jupyter notebook
+├── data                                        <- CSV file used for this project
+└── images                                      <- Visualizations generated for analysis
+'''
