@@ -19,7 +19,7 @@ This dataset contains 349,563 rows and 78 columns.
 
 ## Method
 The analysis performed in my main Jupiter notebook follows a CRISP-DM method approach. Here I was able to import data from a reputable source, cleaned, processed, scaled, and accounted for the class imbalance. Throughout my exploratory data analysis, I utilized descriptive statistics to determine promising insights and trends withing the mortgage lending process for the year 2017. I was able to organize actionable steps that will help lead to more mortgage approvals. I utilized a Decision Tree for my final model and extracted the optimal hyperparameters with GridSearchCV. I determined the best course of action is to optimize for recall. 
-<img src="https://github.com/Eric-G-Romano/dsc-phase-3-project/blob/main/images/Denied_loan_application.png" width="250" height="240">
+<img src="https://github.com/Eric-G-Romano/dsc-phase-3-project/blob/main/images/Denied_loan_application.png" width="500" height="500">
 
 To solve for my class imbalance I choose different method but ended up sticking with the hyperparameter class_weight=’balanced’. 
 ## Results
