@@ -30,7 +30,8 @@ The analysis performed in my main Jupiter notebook follows a CRISP-DM method app
 To solve for my class imbalance I experimented with different method such as SMOTE but ended up sticking with the hyperparameter class_weight=’balanced’. 
 
 ## Results
-<img src="https://github.com/Eric-G-Romano/dsc-phase-3-project/blob/main/image/denial_reason.png" width="500" height="500">
+
+![](image/denial_reason.png)
 
 For the final model the most important features that determined if you got denied or approved were the features found in this graph. One of leading causes for getting denied a loan is having a high debt to income ratio.
 
@@ -40,7 +41,7 @@ For the final model the most important features that determined if you got denie
 
 Hispanics fall behind all other ethnic group, thus have higher denial rates for each category. This is the primary reason why it’s important to address this problem as it clear that there is a lack of financial education and leaders to help this community.
 
-<img scr="https://github.com/Eric-G-Romano/dsc-phase-3-project/blob/main/image/Decision_tree_final.PNG" width="500" height="500">
+![](image/Decision_tree_final.PNG)
 
 From this decision tree you can see the most important features. Surprisingly, the feature that had the highest influence on the mode was the type of property. This can be further understood when you investigate the percentage of denials that occurs in respect to every other feature. This most likely has to do with the lack of willingness from the lender to consider manufactured properties as real estate.
 
