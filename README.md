@@ -1,4 +1,4 @@
-
+![](images/Mortgage_loan_pic%20(2).jpg)
 # Mortgage Loan Denial Classification
 ### Author: Eric Romano
 ## Overview
