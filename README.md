@@ -47,15 +47,13 @@ This analysis was comprised of two supervised models that were test. The First m
 The next model I decide to use was a Decision Tree and once again I had a model with bad performance metrics.I used the hyperparameters to solve for out Imbalance class. 
 
 Solved for imbalanced 
->Using The KNN Method weights= ‘distance’:
->
->Precision Score: 0.2776998597475456
->
->Recall Score: 0.07066381156316917
->
->Accuracy Score: 0.9325461190769696
->
->F1 Score: 0.11266002844950213
+ Using The KNN Method weights= ‘distance’
+|     Metric     |       Value        |
+|----------------|--------------------|
+|Precision Score | 0.2776998597475456 |
+|Recall Score    | 0.07066381156316917|
+|Accuracy Score  | 0.9325461190769696 |
+|F1 Score        | 0.11266002844950213|
 
 >Using The Decision Tree Method weighted:
 >Precision Score: 0.2100656455142232
