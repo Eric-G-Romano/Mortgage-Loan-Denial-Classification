@@ -70,7 +70,7 @@ However, when optimizing for recall I was able to obtain a recall of about 87%. 
 
 For my final model, I decide to revert to the model before performing a GridSearchCV. In this model I was able to obtain a lower recall of about 73% with an F1 score of 71% which is much more reliable than that of my model where I prioritized recall.
 
-<img src="https://github.com/Eric-G-Romano/dsc-phase-3-project/blob/main/image/Confusion_Matrix_final.png" width="400" height="400"> ![](image/Classification_report_ Final.PNG)
+<img src="https://github.com/Eric-G-Romano/dsc-phase-3-project/blob/main/image/Confusion_Matrix_final.png" width="400" height="400"> ![](image/Classification_report_Final.PNG)
 
 Based on the performance of the model, I reject the null hypothesis that there is no relationship between the HMDA data and a mortgage loan denial.
 
