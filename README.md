@@ -79,7 +79,8 @@ Please review my full analysis in my [Jupyter Notebook]() or my [presentation]()
 For any additional questions, please contact **Eric Romano** at [egustavo4@gmail.com](egustavo94@gmail.com).
 
 ## Repository Structure
-'''
+'''bash
+
 ├── README.md                                   <- The top-level README for reviewers of this project
 ├── Mortgage_Loan_Denial_Classification.ipynb   <- Narrative documentation of analysis in Jupyter notebook
 ├── Mortgage_Loan_Denial_Classification.pdf                     <- PDF version of project presentation
