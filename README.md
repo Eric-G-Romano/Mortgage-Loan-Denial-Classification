@@ -6,6 +6,9 @@ Is the real estate industry doing enough to court a new generation of Latino hom
 ## Business Problem
 Due to wealth gap inequality and our current housing market, it is in our best interest to learn what recommendations can provide solutions for these minority groups. To formulate these recommendations, I will create a mortgage application prediction model. From this model, I will present features that have the highest significances in predicting when a mortgage application will be denied. With the fifth of all millennials entering their prime ages to purchase real estate, and of that group another fifth identifies as either Hispanic or Latino this can be seen as a long-term investment that will drive future ROIs. The following are the questions I will answer in this analysis. 
 1.	What are the obstacles holding back minority groups, specifically people that identify with the Hispanic/Latinos ethnicity group? 
+2.	What are the most important features that go into getting approved for a mortgage loan 
+3.	What strategies can be formulated from this analysis to help in obtaining a mortgage loan
+4.	Can we create an automated underwriting system with using supervised learning models
 
 ### Hypotheses
 Null Hypothesis (H0): There is no relationship between the HMDA data and Mortgage loan denial predictions
@@ -41,8 +44,20 @@ To solve for my class imbalance I experimented with different method such as SMO
 ## Evaluations
 
 This analysis was comprised of two supervised models that were test. The First model used features that did not include reasons of denial to test if the model would pick up any bias against people of color. These models performed terribly with a Recall of about 5%.
-The next model I decide to use was a Decision Tree and once again I had a model with bad performance metrics.
+The next model I decide to use was a Decision Tree and once again I had a model with bad performance metrics.I used the hyperparameters to solve for out Imbalance class. 
 
+Solved for imbalanced 
+>Using The KNN Method weights= ‘distance’:
+>Precision Score: 0.2776998597475456
+>Recall Score: 0.07066381156316917
+>Accuracy Score: 0.9325461190769696
+>F1 Score: 0.11266002844950213
+
+>Using The Decision Tree Method weighted:
+>Precision Score: 0.2100656455142232
+>Recall Score: 0.20556745182012848
+>Accuracy Score: 0.9050152468695257
+>F1 Score: 0.2077922077922078
 
 I decided to feature engineer more varibles that are known to have an impact on the a mortgage loan outcome. I choose to prioritize recall as the metric to gauge the performance of the model. The goal was to limit the number of false negatives. These false negatives, in terms to our business problem, will predict an applicant as worthy of getting approved for a loan even though they should have been rejected. After the housing market crash in 2008, agencies were developed to ensures that banks pay close attention to the affordability of the loan. This will help borrows from obtaining loans that they can afford and prevent future defaults. 
 
