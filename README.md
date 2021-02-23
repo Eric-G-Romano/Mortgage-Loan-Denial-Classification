@@ -46,8 +46,7 @@ To solve for my class imbalance I experimented with different method such as SMO
 This analysis was comprised of two supervised models that were test. The First model used features that did not include reasons of denial to test if the model would pick up any bias against people of color. These models performed terribly with a Recall of about 5%.
 The next model I decide to use was a Decision Tree and once again I had a model with bad performance metrics.I used the hyperparameters to solve for out Imbalance class. 
 
-Solved for imbalanced 
- Using The KNN Method weights= ‘distance’
+**Using The KNN Method weights= ‘distance’**
 |     Metric     |       Value        |
 |----------------|--------------------|
 |Precision Score | 0.2776998597475456 |
@@ -55,21 +54,23 @@ Solved for imbalanced
 |Accuracy Score  | 0.9325461190769696 |
 |F1 Score        | 0.11266002844950213|
 
->Using The Decision Tree Method weighted:
->Precision Score: 0.2100656455142232
->Recall Score: 0.20556745182012848
->Accuracy Score: 0.9050152468695257
->F1 Score: 0.2077922077922078
+**Using The Decision Tree Method weighted:**
+|     Metric     |       Value        |
+|----------------|--------------------|
+|Precision Score | 0.2100656455142232 |
+|Recall Score    | 0.20556745182012848|
+|Accuracy Score  | 0.9050152468695257 |
+|F1 Score        | 0.2077922077922078 |
 
 I decided to feature engineer more varibles that are known to have an impact on the a mortgage loan outcome. I choose to prioritize recall as the metric to gauge the performance of the model. The goal was to limit the number of false negatives. These false negatives, in terms to our business problem, will predict an applicant as worthy of getting approved for a loan even though they should have been rejected. After the housing market crash in 2008, agencies were developed to ensures that banks pay close attention to the affordability of the loan. This will help borrows from obtaining loans that they can afford and prevent future defaults. 
 
 However, when optimizing for recall I was able to obtain a recall of about 87%. This suggest that out of all applicants that applied for a mortgage loan, only 87% of the denial class were identified. My accuracy had decreased to about 87%, implying that my model’s predictions were only 87% correct. Not only did optimizing for recall cost me a decrease in my accuracy, it also took a heavy blow to my F1 score. When optimizing for recall, a better metric to go by, to know the validity of your model’s performance, is your F1 score. Accuracy is used when the True Positives and True negatives are more important while F1-score is used when the False Negatives and False Positives are crucial.
 
-<img src="https://github.com/Eric-G-Romano/dsc-phase-3-project/blob/main/image/Confusion_Matrix_recall.png" width="400" height="400">
+<img src="https://github.com/Eric-G-Romano/dsc-phase-3-project/blob/main/image/Confusion_Matrix_recall.png" width="400" height="400"> ![](image/Classification_report_recall.PNG)
 
 For my final model, I decide to revert to the model before performing a GridSearchCV. In this model I was able to obtain a lower recall of about 73% with an F1 score of 71% which is much more reliable than that of my model where I prioritized recall.
 
-<img src="https://github.com/Eric-G-Romano/dsc-phase-3-project/blob/main/image/Confusion_Matrix_final.png" width="400" height="400">
+<img src="https://github.com/Eric-G-Romano/dsc-phase-3-project/blob/main/image/Confusion_Matrix_final.png" width="400" height="400"> ![](image/Classification_report_ Final.PNG)
 
 Based on the performance of the model, I reject the null hypothesis that there is no relationship between the HMDA data and a mortgage loan denial.
 
