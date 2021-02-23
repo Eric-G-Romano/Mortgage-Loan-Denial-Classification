@@ -1,8 +1,10 @@
-# dsc-phase-3-project
+![Mortgage_loan_pic%20%282%29.jpg](attachment:Mortgage_loan_pic%20%282%29.jpg)
+# Mortgage Loan Denial Classification
+### Author: Eric Romano
 ## Overview
 Is the real estate industry doing enough to court a new generation of Latino homebuyers? Experts agree that despite progress, the industry has some way to go to fully cater to this growing customer base and take advantage of a lucrative opportunity.
 ## Business Problem
-Due to wealth gap inequality and our current housing market, it is in our best interest to learn what recommendations can provide solutions for these minority groups. To formulate these recommendations, I will create a mortgage application prediction model. From this model, I will present features that have the highest significances in predicting that a mortgage application will be denied. With the fifth of all millennials entering their prime ages to purchase real estate, and of that group another fifth identifies as either Hispanic or Latino this can be seen as a long-term investment that will drive future ROIs. The following are the questions I will answer in this analysis. 
+Due to wealth gap inequality and our current housing market, it is in our best interest to learn what recommendations can provide solutions for these minority groups. To formulate these recommendations, I will create a mortgage application prediction model. From this model, I will present features that have the highest significances in predicting when a mortgage application will be denied. With the fifth of all millennials entering their prime ages to purchase real estate, and of that group another fifth identifies as either Hispanic or Latino this can be seen as a long-term investment that will drive future ROIs. The following are the questions I will answer in this analysis. 
 1.	What are the obstacles holding back minority groups, specifically people that identify with the Hispanic/Latinos ethnicity group? 
 
 ### Hypotheses
