@@ -25,7 +25,7 @@ To solve for my class imbalance I experimented with different method such as SMO
 
 ## Results
 
-<img src="https://github.com/Eric-G-Romano/dsc-phase-3-project/blob/main/images/Applicant_Ethnicity.PNG" width="350" height="350">
+![](images/Applicant_Ethnicity.PNG)
 <img src="https://github.com/Eric-G-Romano/dsc-phase-3-project/blob/main/images/denial_reason_ethnicity.png" width="500" height="500"> 
 
 <img src="https://github.com/Eric-G-Romano/dsc-phase-3-project/blob/main/images/denial_reason_sex.png" width="500" height="500">
