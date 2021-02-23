@@ -22,10 +22,12 @@ The analysis performed in my main Jupiter notebook follows a CRISP-DM method app
 
 <img src="https://github.com/Eric-G-Romano/dsc-phase-3-project/blob/main/images/Denied_loan_application.png" width="500" height="500">
 To solve for my class imbalance I experimented with different method such as SMOTE but ended up sticking with the hyperparameter class_weight=’balanced’. 
+
 ## Results
                            *A*     *D*
 *Hispanic or Latino*	     16868	1615
 *Not Hispanic or Latino*	113319	7903
+
 <img src="https://github.com/Eric-G-Romano/dsc-phase-3-project/blob/main/images/denial_reason_ethnicity.png" width="500" height="500">
 <img src="https://github.com/Eric-G-Romano/dsc-phase-3-project/blob/main/images/denial_reason_sex.png" width="500" height="500">
 
