@@ -84,8 +84,8 @@ For any additional questions, please contact **Eric Romano** at [egustavo4@gmail
 
 ├── README.md                                   <- The top-level README for reviewers of this project
 ├── Mortgage_Loan_Denial_Classification.ipynb   <- Narrative documentation of analysis in Jupyter notebook
-├── Mortgage_Loan_Denial_Classification.pdf                     <- PDF version of project presentation
-├── Mortgage_Loan_Denial_Classification.pdf             <- PDF version of Jupyter notebook
+├── Mortgage_Loan_Denial_Classification.pdf     <- PDF version of project presentation
+├── Mortgage_Loan_Denial_Classification.pdf     <- PDF version of Jupyter notebook
 ├── data                                        <- CSV file used for this project
 └── images                                      <- Visualizations generated for analysis
 ```
