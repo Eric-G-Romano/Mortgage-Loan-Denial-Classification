@@ -40,13 +40,19 @@ To solve for my class imbalance I experimented with different method such as SMO
 
 ## Evaluations
 
-This analysis was comprised of two supervised models that were test. The First model used features that did not include reasons of denial to test if the model would pick up any bias against people of color. These models performed terribly with a Recall of about 5%. 
+This analysis was comprised of two supervised models that were test. The First model used features that did not include reasons of denial to test if the model would pick up any bias against people of color. These models performed terribly with a Recall of about 5%.
+The next model I decide to use was a Decision Tree and once again I had a model with bad performance metrics.
 
-The next model I decide to use was a Decision Tree and I choose to prioritize recall as the metric to gauge the performance of the model. The goal was to limit the number of false negatives. These false negatives, in terms to our business problem, will predict an applicant as worthy of getting approved for a loan even though they should have been rejected. After the housing market crash in 2008, agencies were developed to ensures that banks pay close attention to the affordability of the loan. This will help borrows from obtaining loans that they can afford and prevent future defaults. 
+
+I decided to feature engineer more varibles that are known to have an impact on the a mortgage loan outcome. I choose to prioritize recall as the metric to gauge the performance of the model. The goal was to limit the number of false negatives. These false negatives, in terms to our business problem, will predict an applicant as worthy of getting approved for a loan even though they should have been rejected. After the housing market crash in 2008, agencies were developed to ensures that banks pay close attention to the affordability of the loan. This will help borrows from obtaining loans that they can afford and prevent future defaults. 
 
 However, when optimizing for recall I was able to obtain a recall of about 87%. This suggest that out of all applicants that applied for a mortgage loan, only 87% of the denial class were identified. My accuracy had decreased to about 87%, implying that my model’s predictions were only 87% correct. Not only did optimizing for recall cost me a decrease in my accuracy, it also took a heavy blow to my F1 score. When optimizing for recall, a better metric to go by, to know the validity of your model’s performance, is your F1 score. Accuracy is used when the True Positives and True negatives are more important while F1-score is used when the False Negatives and False Positives are crucial.
 
+<img src="https://github.com/Eric-G-Romano/dsc-phase-3-project/blob/main/image/Confusion_Matrix_recall.png" width="400" height="400">
+
 For my final model, I decide to revert to the model before performing a GridSearchCV. In this model I was able to obtain a lower recall of about 73% with an F1 score of 71% which is much more reliable than that of my model where I prioritized recall.
+
+<img src="https://github.com/Eric-G-Romano/dsc-phase-3-project/blob/main/image/Confusion_Matrix_final.png" width="400" height="400">
 
 Based on the performance of the model, I reject the null hypothesis that there is no relationship between the HMDA data and a mortgage loan denial.
 
@@ -74,7 +80,7 @@ The model can use some tweaking as well as exploring through different algorithm
 I would also like to recreate this analysis with more recent years to compare. I would like to monitor the direction of the Hispanic/Latino market and provide better data driven decisions solutions to problems they are facing.
 
 ## For More Information
-Please review my full analysis in my [Jupyter Notebook]() or my [presentation]().
+Please review my full analysis in my [Jupyter Notebook](https://github.com/Eric-G-Romano/dsc-phase-3-project/blob/main/Mortgage%20Loan%20Denial%20Classification.ipynb) or my [presentation]().
 
 For any additional questions, please contact **Eric Romano** at [egustavo4@gmail.com](egustavo94@gmail.com).
 
@@ -87,5 +93,6 @@ For any additional questions, please contact **Eric Romano** at [egustavo4@gmail
 ├── Mortgage_Loan_Denial_Classification.pdf     < PDF version of project presentation
 ├── Mortgage_Loan_Denial_Classification.pdf     < PDF version of Jupyter notebook
 ├── data                                        < CSV file used for this project
+├── image                                       < Visualizations generated for analysis
 └── images                                      < Visualizations generated for analysis
 ```
