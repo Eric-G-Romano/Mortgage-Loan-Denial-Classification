@@ -104,7 +104,7 @@ I would also like to recreate this analysis with more recent years to compare. I
 ## For More Information
 Please review my full analysis in my [Jupyter Notebook](https://github.com/Eric-G-Romano/dsc-phase-3-project/blob/main/Mortgage%20Loan%20Denial%20Classification.ipynb) or my [presentation]().
 
-For any additional questions, please contact **Eric Romano** at [egustavo4@gmail.com](egustavo94@gmail.com).
+For any additional questions, please contact **Eric Romano** at [egustavo94@gmail.com](egustavo94@gmail.com).
 
 ## Repository Structure
 
