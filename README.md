@@ -82,8 +82,6 @@ Based on the performance of the model, I reject the null hypothesis that there i
 
 In conclusion, the HMDA dataset provides a great resource to gather insights into the process of mortgage lending practices. From just analyzing a given year you can put together actionable recommendations to improve your chances in obtaining a mortgage loan. This machine learning model is like an automated underwriting system used by different lenders. Just like my model there are certain scenarios that will lead the automated underwriting system to deny an applicant of a loan. From here a lender would have to manually underwrite the loan. By leveraging this knowledge, you can implement recommendations that will assist in obtain a mortgage loan.
 
-![](image/power_bi.PNG)
-
 ### Recommendations
 
 1. My first recommendation would be to find lenders that offer you the ability to check whether you will be able to get approved for a mortgage loan without the risk of running your credit. From my analysis I was able to prove that a simple automated underwriting system can be created with the help of machine learning. This will allow you to check without running your credit score, which causes a hard inquiry that has a negative effect on your credit. 
@@ -107,6 +105,9 @@ I would also like to recreate this analysis with more recent years to compare. I
 Please review my full analysis in my [Jupyter Notebook](https://github.com/Eric-G-Romano/dsc-phase-3-project/blob/main/Mortgage%20Loan%20Denial%20Classification.ipynb) or my [presentation]().
 
 For any additional questions, please contact **Eric Romano** at [egustavo94@gmail.com](egustavo94@gmail.com).
+
+Power BI Dashboard
+![](image/power_bi.PNG)
 
 ## Repository Structure
 
